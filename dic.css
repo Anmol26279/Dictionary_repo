@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+body {
+    background-color: #3a5250;
+}
+
+.outer {
+    height: 32rem;
+    width: 70%;
+    border: 1px solid black;
+    margin: 10px auto;
+    background: linear-gradient(45deg,#0a0a0a, #3a4452);
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.h1 {
+    
+    background-color: skyblue;
+    color: #3a4452;
+    /* border: 2px solid #0a0a0a; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 10px 10px transparent;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.in-put {
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.in-search {
+    height: 3.125rem;
+    width: 11.2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.1rem;
+
+}
+
+.para {
+    
+   
+    margin: 5rem 1rem 0 1rem;
+}
