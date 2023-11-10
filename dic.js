@@ -32,7 +32,7 @@ async function getDic(get) {
   
  }
     catch(e) {
-        return "Weak connection"
+        return "Weak connection!!!! try again"
     }
 }
 
@@ -48,7 +48,7 @@ async function getData(data) {
   
  }
     catch(e) {
-        return "Weak connection"
+        return "Weak connection!!!! try again"
     }
 }
 
